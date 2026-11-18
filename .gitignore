@@ -1,0 +1,13 @@
+# --- Licensed ATTOM data from Dewey: never commit ---
+# Raw extracts (folders and the original zip downloads)
+src/raw/*
+!src/raw/tri2005RIlist.csv
+
+# Everything built from the raw data is also licensed ATTOM data
+bld/
+
+# --- Clutter ---
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db

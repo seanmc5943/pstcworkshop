@@ -1,0 +1,5 @@
+geopandas>=0.14
+pandas>=2.0
+numpy
+pyarrow
+jupyter
