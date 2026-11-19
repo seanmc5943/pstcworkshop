@@ -3,6 +3,14 @@
 src/raw/*
 !src/raw/tri2005RIlist.csv
 
+# Keep the empty data folders (with placeholder notes) so participants know where files go
+!src/raw/recorder/
+!src/raw/assessor/
+src/raw/recorder/*
+src/raw/assessor/*
+!src/raw/recorder/README.txt
+!src/raw/assessor/README.txt
+
 # Everything built from the raw data is also licensed ATTOM data
 bld/
 
