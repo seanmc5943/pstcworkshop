@@ -1,8 +1,8 @@
-# PSTC Workshop: Ring Difference-in-Differences with Geocoded Housing Data
+# Data Pipelines for Spatial Quasi-Experiments with Dewey Data
 
 This repository contains a minimal data pipeline that estimates the effect of a polluting plant's opening on nearby house prices with a ring difference-in-differences design. The notebook cleans ATTOM deed and tax assessor records, geocodes sales, draws rings around two Rhode Island plants that entered the EPA Toxics Release Inventory (TRI) in 2005, and compares average prices inside 1 km (treatment) and 1–2 km (control) before and after 2005.
 
-Sean McCulloch, 12 October 2026
+Sean McCulloch, 20 November 2026
 
 ## Getting the code
 
