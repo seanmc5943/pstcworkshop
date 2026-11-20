@@ -8,10 +8,21 @@ Sean McCulloch, 12 October 2026
 
 Click the green **Code** button above and choose **Download ZIP**, then unzip it anywhere. If you use Git, `git clone` the repository instead.
 
-Install the Python packages once:
+## Setting up Python
+
+We recommend [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.anaconda.com/miniconda/). Conda installs geopandas together with the GIS libraries it depends on (GDAL, PROJ), which often fail to install through pip, especially on Windows.
+
+Open Anaconda Prompt (Windows) or a terminal (Mac/Linux) and create the workshop environment once:
 
 ```bash
-pip install -r requirements.txt
+conda create -n pstcworkshop -c conda-forge python=3.11 geopandas pandas numpy pyarrow jupyter
+```
+
+Then, each time you work on the notebook, activate the environment and launch Jupyter:
+
+```bash
+conda activate pstcworkshop
+jupyter notebook
 ```
 
 ## Getting the data
