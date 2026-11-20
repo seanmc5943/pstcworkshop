@@ -25,9 +25,11 @@ conda activate pstcworkshop
 jupyter notebook
 ```
 
+New to GeoPandas? Start with its [Getting Started guide](https://geopandas.org/en/stable/getting_started.html).
+
 ## Getting the data
 
-The housing data are licensed ATTOM data distributed through [Dewey](https://www.deweydata.io/), so they are not in this repository. Download them yourself with your own Dewey access:
+The housing data are licensed ATTOM data distributed through [Dewey](https://app.deweydata.io/), so they are not in this repository. Brown affiliates can get access through the library; see the [Brown Library guide to Dewey Data](https://libguides.brown.edu/deweydata). Download the data yourself with your own Dewey access:
 
 1. **ATTOM Recorder** (deed transfers): Rhode Island, recording dates 2000–2010. Required columns: `APNFORMATTED`, `ARMSLENGTHFLAG`, `ATTOMID`, `PROPERTYUSEGROUP`, `PROPERTYUSESTANDARDIZED`, `RECORDINGDATE`, `TRANSACTIONID`, `TRANSACTIONTYPE`, `TRANSFERAMOUNT`.
 2. **ATTOM Tax Assessor** (parcel coordinates): Rhode Island. Required columns: `ATTOMID`, `LATITUDE`, `LONGITUDE`.
